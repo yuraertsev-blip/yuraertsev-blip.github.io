@@ -1,0 +1,1 @@
+var e={};function t(t,n=480){if(!t)return``;if(e[t.id])return e[t.id];let r=t.widths.includes(n)?n:t.widths[0];return`/media/${t.id}-${r}.${t.ext??`webp`}`}export{t as n,e as t};

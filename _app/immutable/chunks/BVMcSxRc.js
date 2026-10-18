@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./C5tTpN5s.js","./feKpLGv0.js","./CCsl5UB8.js","./CSkGYr0-.js","./yJEVmVe5.js","./BfxZ8K9w.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./CRzLMJPS.js";import{t,u as n}from"./CCsl5UB8.js";async function r(r,i,a={}){{if((await i.parent()).locked)return{locked:!0};let{store:o}=await e(async()=>{let{store:e}=await import(`./C5tTpN5s.js`);return{store:e}},__vite__mapDeps([0,1,2,3,4,5]),import.meta.url),s=t[r](o.db,a);return s||n(404,`Не найдено`),s}}export{r as t};

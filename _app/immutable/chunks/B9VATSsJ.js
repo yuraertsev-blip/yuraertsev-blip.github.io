@@ -1,0 +1,1 @@
+import{et as e}from"./feKpLGv0.js";var t=e({list:[]}),n=0;function r(e,r=`ok`){let i=++n;t.list.push({id:i,text:e,kind:r}),setTimeout(()=>t.list=t.list.filter(e=>e.id!==i),r===`error`?6e3:2600)}export{t as n,r as t};
